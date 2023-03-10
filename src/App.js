@@ -5,17 +5,19 @@ import Project from "./components/Project";
 import Skills from "./components/Skills";
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
-import { kayakBody, movieBody, portfolioBody } from "./constants";
-
+import { anniesBakery, kayakBody, movieBody, portfolioBody } from "./constants";
+import kayakApp from "./Images/kayakApp.png";
+import anniesBakeryShot from "./Images/anniesBakeryShot.png";
+import portfolioPagePic from "./Images/portfolioPagePic.png";
 
 function App() {
   return (
     <Fragment>
-      
+
       <Navbar />
 
       <div class='container-fluid p-0'>
-       
+
         < Intro />
 
         <hr class='m-0'></hr>
@@ -31,23 +33,33 @@ function App() {
           <div class='w-100'>
             <h2 class='mb-5'>Projects</h2>
 
-            
-            <Project 
-              title={'Kayak Meetup Service'} 
-              subtitle={'Kayaker Connection Service'} 
+
+            <Project
+              img={kayakApp}
+              title={'Kayak Meetup Service'}
+              subtitle={'Kayaker Connection Service'}
               body={kayakBody}
               link={'https://github.com/hitox39/KayakMeetupApp'}
             />
 
-            <Project 
-              title={'Movie Reviewing Service'} 
-              subtitle={'Movie Review Service'} 
-              body={movieBody} 
+            <Project
+              img={anniesBakeryShot}
+              title={"Annie's Bakery"}
+              subtitle={'Modern Webpage'}
+              body={anniesBakery}
+              link={'https://github.com/hitox39/AnniesBakery'}
+            />
+
+            <Project
+              title={'Movie Reviewing Service'}
+              subtitle={'Movie Review Service'}
+              body={movieBody}
               link={'https://github.com/hitox39/MovieReviewService'}
             />
-            <Project 
-              title={'Personal Website'} 
-              subtitle={'React Personal Portfolio Website'} 
+
+            <Project
+              title={'Personal Website'}
+              subtitle={'React Personal Portfolio Website'}
               body={portfolioBody}
               link={'https://github.com/hitox39/PortfolioWebsite'}
             />
@@ -58,10 +70,10 @@ function App() {
 
         <Education />
 
-        <hr class='m-0'></hr>   
+        <hr class='m-0'></hr>
 
         <AboutMe />
-        
+
       </div>
     </Fragment>
   );

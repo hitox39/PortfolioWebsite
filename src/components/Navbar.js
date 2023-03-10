@@ -11,9 +11,9 @@ export default function Navbar(props){
           <span class='d-block d-lg-none'>Chandler Miklos</span>
           <span class='d-none d-lg-block'>
             <img
-              class='img-fluid img-profile mx-auto mb-2'
+              class='img-fluid img-profile mx-auto mb-2' width={300}
               src='./img/PortPhoto.jfif'
-              alt=''
+              alt='Chandler Miklos'
             ></img>
           </span>
         </a>
