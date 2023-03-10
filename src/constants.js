@@ -4,6 +4,8 @@ export const kayakBody = ' Service that allows users to find local kayakers, whe
 
 export const movieBody = ' Movie Review service allows users to rate and review their favorite movies. CRUD REST API with Microsoft SQL Server database, using Entity Framework for migrations.';
 
-export const portfolioBody = ' My portfolio website, made with React and modern Bootstrap.';
+export const portfolioBody = ' My portfolio website, made with React, Typescricpt, Tailwind CSS.';
 
+export const anniesBakery = 'A modern Webpage designed with React, Typescricpt and Tailwind CSS.';
+    
 

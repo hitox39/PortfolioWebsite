@@ -13,7 +13,7 @@ export default function Intro(props) {
             </h1>
             <div class='subheading mb-5'>
               Orlando, Florida 32835 · (561) 909-7562 ·
-              <a href='mailto:name@email.com'>cmiklos@gmail.com</a>
+              <a href='mailto:chandlermiklos@gmail.com'>chandlermiklos@gmail.com</a>
             </div>
             <p class='lead mb-5'>
               An enthusiastic and detail-oriented Full-Stack Developer with more than 6 years of Customer Service experience and a passion for all things tech.
@@ -21,10 +21,10 @@ export default function Intro(props) {
               I am based out of Orlando, in the beautiful state of Florida.
             </p>
             <div class='social-icons'>
-              <a href='https://github.com/hitox39'>
+              <a class='github' href='https://github.com/hitox39'>
                 <i class='fab fa-github'></i>
               </a>
-              <a href='https://www.linkedin.com/in/chandlermiklos/'>
+              <a class='linkedin' href='https://www.linkedin.com/in/chandlermiklos/'>
                 <i class="fab fa-linkedin"></i>
               </a>
             </div>

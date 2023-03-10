@@ -202,6 +202,8 @@ img {
 }
 
 svg {
+  width: 5rem;
+  height: 5rem;
   overflow: hidden;
   vertical-align: middle;
 }
@@ -477,7 +479,11 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 100%;
+}
+
+.fab {
+  width: 1250px;
 }
 
 .img-thumbnail {
@@ -10063,16 +10069,18 @@ p.lead {
     display: block;
   }
 }
+
 .social-icons .social-icon {
   display: inline-flex;
+  border-color: red;
   align-items: center;
   justify-content: center;
   height: 3.5rem;
-  width: 3.5rem;
-  background-color: #495057;
+  width: 3.5rem; 
+  background-color: #495057; 
   color: #fff;
-  border-radius: 100%;
-  font-size: 1.5rem;
+  border-radius: 3px;
+  font-size: 5rem;
   margin-right: 1.5rem;
 }
 .social-icons .social-icon:last-child {
@@ -10082,8 +10090,14 @@ p.lead {
   background-color: #bd5d38;
 }
 
+.github {
+  width: 5rem;
+  height: 5rem;
+}
+
+
 .dev-icons {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 section.resume-section {
@@ -10111,4 +10125,12 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+
+
+
 }
+
+/* photo {
+  border: 3px;
+  border-color: red;
+} */
